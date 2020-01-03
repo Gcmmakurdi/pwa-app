@@ -1,0 +1,17 @@
+html,body{
+  height: 100vh;
+  overflow: hidden;
+}
+.carousel-caption{
+  top: 40%;
+  color: yellow;
+  background: rgba(250, 246, 246, 0.3);
+  height: 40%;
+  border-radius: 50px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: red !important;
+}
+.carousel-control-next-icon{
+  background-color: red !important;
+}
