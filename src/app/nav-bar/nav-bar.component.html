@@ -10,25 +10,21 @@
   <ul class="nav-items" (click)="Toggle()">
       <li style="padding-top: 48px"></li>
       <a href="#home"><li>Home</li></a>
-      <a href="#about"><li>About</li></a>
-      <a href="#projects"><li>Events</li></a>
-      <a href="#contact"><li>Contact</li></a>
-      <a href="#"><button type="button" class="btn  btn-lg btn-warning">
-        Partner With Us
-      </button></a>
+      <a href="#about"><li>About Us</li></a>
+      <a href="#events"><li>events</li></a>
+      <a href="#Blogs"><li>blogs</li></a>
+      <a href="#contact-us"><li>Contact</li></a>
   </ul>
 </nav>
 
 <!-- Desktop Navigation -->
 <div class="sidebar-container" (mouseover)="SidebarOn()" (mouseout)="SidebarOff()">
-  <p class="sidebar-toggle" id="sidebar-toggle">Menu</p>
+  <p class="sidebar-toggle" id="sidebar-toggle"><fa-icon [icon]="['fas', 'grip-vertical']"></fa-icon></p>
   <ul class="sidebar-items desktop-nav display-none" id="desktop-nav">
-      <a href="#home"><li>Home</li></a>
-      <a href="#about"><li>About</li></a>
-      <a href="#projects"><li>Events</li></a>
-      <a href="#contact"><li>Contact</li></a>
-      <a href=""><a href="#"><button type="button" class="btn  btn-lg btn-warning">
-        Partner With Us
-      </button></a></a>
+      <a href="#home"><li class="home"><fa-icon [icon]="['fas', 'home']"></fa-icon></li></a>
+      <a href="#about"><li>About Us</li></a>
+      <a href="#events"><li>events</li></a>
+      <a href="#blogs"><li>blogs</li></a>
+      <a href="#contact-us"><li>Contacts</li></a>
   </ul>
 </div>

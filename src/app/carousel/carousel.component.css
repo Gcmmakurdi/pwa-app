@@ -1,15 +1,23 @@
-html,body{
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.hero-image{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../../assets/image/pstu.jpg);
+  background-size: cover;
   height: 100vh;
-  overflow: hidden;
+  width: 100vw;
+  background-repeat: no-repeat;
 }
-
- .carousel-caption{
-  top: 40%;
-  color: yellow;
-  background: rgba(5, 5, 5, 0.5);
-  height: 40%;
-  border-radius: 50px;
+div.hero-text{
+  padding-top: 20%;
+  text-align: center;
+  color: gold;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: red !important;
+@media screen and (max-width: 1080px){
+  div.hero-text{
+    padding-top: 30%;
+  }
+}
+.btn:hover{
+  background: gold;
 }

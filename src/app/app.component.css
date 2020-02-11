@@ -1,19 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab&display=swap');
 /* about */
 .background{
-  background-color: black;
-  position: relative;
-  min-height: 100vh;
-  height: auto;
-  overflow: hidden;
-  background-image:linear-gradient(rgba(74, 15, 236, 0.5),rgba(74, 15, 236, 0.5)), url(.././assets/image/Waihou.svg);
+  background-color: #dcd9cd;
 }
 .lead{
 	box-shadow: 0 8px 16px 0px black;
 	transition:  0.3s step-end;
   padding: 2px 16px;
-  margin: 10px;
-  color: whitesmoke;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 h2{
-  color: yellow;
+  color: black;
+  font-family: 'Roboto Slab', serif;
 }

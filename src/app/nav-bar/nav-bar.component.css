@@ -9,23 +9,24 @@ a, li { text-decoration: none; }
     position: fixed;
     display: initial;
     height: 30vh;
-    width: 350px;
+    width: 390px;
     z-index: 10;
     /* background-color: dodgerblue; */
 }
 .sidebar-toggle {
-    color: red;
-    background: blue;
-    width: 30px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: webly, 'Segoe UI', sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    width: 50px;
+    border-radius: 40px;
     margin: 40px;
     padding: 10px;
 }
-.sidebar-toggle fa-icon{
-  color: yellowgreen;
-  font-size: 3rem;
-}
 .sidebar-items {
     position: fixed;
+    margin-top: 40px;
     z-index: 10;
     list-style: none;
     font-size: 3rem;
@@ -36,12 +37,23 @@ a, li { text-decoration: none; }
     cursor: pointer;
     padding: 2px 14px 5px;
     margin-bottom: 20px;
-    color: white;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
     z-index: 10;
+
+}
+fa-icon{
+  color: yellow;
+}
+.home fa-icon{
+  color: yellow;
+  padding-left: 90px;
 }
 .sidebar-items li:hover {
     color: rgba(0,0,0,.85);
-    background-color: red;
+    background-color: #fbfbfb;
     transition: .3s;
 }
 
@@ -64,7 +76,7 @@ a, li { text-decoration: none; }
         top: -300px;
         left: -50px;
         width: 113%;
-        z-index: 10;
+        z-index: 20;
         transition: 0.5s ease;
     }
     .nav-expand {
@@ -82,7 +94,7 @@ a, li { text-decoration: none; }
         font-family: webly, 'Segoe UI', sans-serif;
         padding: 10px;
         margin-left: 10px;
-        /* background-color: rgba(0,0,0,.85); */
+        background-color: rgba(0,0,0,.85);
     }
     .mobile-nav a {
         color: white;
